@@ -28,7 +28,7 @@ function BenefitsContainer() {
           scrollTrigger: {
             trigger: triggerRef.current,
             start: "top top",
-            end: "470 top",
+            end: "450 top",
             scrub: true,
             pin: true,
             onLeave: () => {
