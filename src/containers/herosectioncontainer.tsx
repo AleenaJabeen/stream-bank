@@ -15,7 +15,7 @@ if(index==textArray.length){
 }
     },2000)
 
-},[])
+},[textArray])
  
   return (
     <div>
