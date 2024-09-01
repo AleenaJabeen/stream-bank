@@ -8,7 +8,7 @@ interface HeaderProps{
 export default function Highlights({header}:HeaderProps) {
   return (
     <>
-    <div className='pt-16 text-center bg-blue-100 flex justify-center flex-col items-center md:h-screen'>
+    <div className='pt-16 text-center bg-blue-100 flex justify-center flex-col items-center md:h-screen h-[100vh]'>
       <span className='text-3xl md:block hidden absolute left-[15%] mt-[-12rem] '>&#128076;</span>
       <span className='text-3xl  md:block hidden  absolute left-[35%] mt-[-25rem]'>&#128091;</span>
       <span className='text-3xl  md:block hidden absolute left-[63%] mt-[-25rem]'>&#128176;</span>

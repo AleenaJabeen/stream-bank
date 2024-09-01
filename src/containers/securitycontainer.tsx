@@ -7,7 +7,7 @@ export default function SecurityContainer() {
     <>
     <div id='security'>
         <Security/>
-      <div className='h-[60vh] mx-4 mt-10 flex flex-wrap md:flex-nowrap justify-around items-center gap-2 md:gap-10'>
+      <div className='h-[100vh] mx-4 mt-10 flex flex-wrap md:flex-nowrap justify-around items-center gap-2 md:gap-10'>
       <SecurityType securityTypes='Superior Security' securityDetail='Security and fraud prevention is at the core of our business.'/>
       <SecurityType securityTypes='Fraud Protection' securityDetail='Our fraud tools can help your business minimize lost sales.'/>
       </div>
