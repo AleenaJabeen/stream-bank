@@ -9,7 +9,7 @@ interface NavbarProps {
 
 function Navbar({isMenuOpen,toggleMenu}:NavbarProps){
   return (
-    <div className="fixed md:bg-white pt-4 top-0 left-0 w-full  z-10">
+    <div className="fixed bg-white pt-4 top-0 left-0 w-full  z-10">
       <nav className="md:flex px-4 md:items-center lg:max-w-7xl justify-between md:px-8 bg-transparent mx-auto">
   <div className="flex items-center justify-between py-3 md:py-4 md:block">
     <div className="text-primary-light font-bold text-2xl">StreamBank</div>
