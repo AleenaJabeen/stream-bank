@@ -4,7 +4,7 @@ import { FaGooglePlay } from "react-icons/fa6";
 export default function Download() {
   return (
     <>
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center bg-blue-100'>
     <div className='h-full m-[10rem] w-[95vw]'>
       <h3 className='text-center font-bold text-3xl md:text-7xl text-primary'>Download the App <br />to get Started</h3>
     </div>

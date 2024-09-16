@@ -5,7 +5,7 @@ export default function Security() {
   return (
     <>
    
-    <div  className='h-full mt-10'>
+    <div  className='h-full mt-5'>
       <h2 className='text-center md:text-7xl text-primary text-4xl'>Security</h2>
       </div>
 

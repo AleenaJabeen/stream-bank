@@ -20,15 +20,15 @@ function Navbar({isMenuOpen,toggleMenu}:NavbarProps){
 </div>
   </div>
   
-  <ul className={`text-primary font-semibold md:flex md:items-center bg-white md:pl-7 pl-0 transition-all ease-in duration-400  ${isMenuOpen ? 'md:block' : 'hidden'}`}>
-    <Link href={"/#benefitshighlight"}>
+  <ul className={`text-primary font-semibold md:flex md:items-center bg-white md:pl-7 pl-0 transition-all ease-in duration-400  ${isMenuOpen ? 'md:block' : 'hidden'}`} >
+    <Link href="/#benefitshighlight" onClick={toggleMenu}>
       <li className="mx-4 my-6 md:my-0 hover:text-gray-400 duration-500 text-xl">Benefits</li>
     </Link>
-    <Link href={"/#security"}>
+    <Link href="/#security" onClick={toggleMenu}>
       <li className="mx-4 my-6 md:my-0 hover:text-gray-400 duration-500 text-xl">Security</li>
     </Link>
     
-    <Link href="/download">
+    <Link href="/download" onClick={toggleMenu}>
       <li className=""><button className='border-2 focus:border-primary focus:bg-transparent  bg-primary text-white text-xl focus:text-primary  font-bold py-2 px-4 rounded-2xl my-4'>Download</button>
       </li>
     </Link>
