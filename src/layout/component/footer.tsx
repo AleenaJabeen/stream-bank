@@ -8,7 +8,7 @@ function Footer() {
   return (
     <footer className="mt-4 w-full bg-primary-light text-primary py-8">
       <div className="w-full my-6 px-4">
-        <div className='flex flex-wrap md:justify-center justify-between'>
+        <div className='flex flex-wrap  justify-between'>
         {/* Social Media Icons */}
         <div className="flex flex-col items-start space-y-4">
             <h2 className='text-2xl font-bold  text-primary'>Stream Banking</h2>
